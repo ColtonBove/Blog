@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*old gradient background background-image: linear-gradient(to right, #4568DC, #B06AB3);*/
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+.seagreen {
+  color: #47826B;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  border: 0;
+  border-top: 2px solid #D8E6DF;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.black {
+  border-top: 1px solid black;
+}
+
+/*So the navbar doesn't block content*/
+body {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-grid {
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.navbar_custom {
+  background-color: #47826B;
+  color: white;
+}
+
+.brand {
+  color: white;
+}
+
+.brand:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.spaced-title {
+  letter-spacing: 8px;
+  color: #D8E6DF;
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.jumbotron {
+  background-color: #D8E6DF;
+}
+
+.contact {
+  bottom: 0;
+  background-color: #47826B;
+  color: white;
+}
+
+.social-media {
+  width: 45px;
+  height: auto;
+}
+
+.social-media-top {
+  width: 50px;
+  height: auto;
+}
+
+.social-media-top:hover {
+  opacity: 0.7;
+}
+
+.get-in-touch {
+  font-size: 3rem;
+}
+
+.contact-form {
+  width: 350px;
+}
+
+.fill-out-form {
+  font-size: 1.5rem;
+}
+
+.submit-button {
+  color: white;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+}
+
+.submit-button:hover {
+  color: lightgray;
+}
+
+.profile-image {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.cathedral {
+  width: 600px;
+  height: auto;
+}
+
+.aboutme {
+  background-color: #D8E6DF;
+}
+
+.other-posts {
+  color: #D8E6DF;
+}
+
+.blog-container {
+  background-color: #95B1AE;
+}
+
+.post-container {
+  background-color: #D8E6DF;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 1rem;
+}
+
+/*Have no idea why this works but it does shhh otherwise border bottom doesn't show up*/
+.card {
+  width: 18rem;
+  background-color: #D8E6DF;
+  border: 0px;
+  margin: 2rem;
+}
+
+.card-img-top {
+  height: 250px;
+  width: auto;
+}
+
+.blog-link {
+  color: #47826B;
+  font-weight: bold;
+}
+
+.blog-link:hover {
+  text-decoration: none;
+  color: #47826B;
+  opacity: 0.8;
+}
+
+.logos {
+  background-color: #47826B;
+  height: 400px;
+  max-width: 60px;
+}
+
+.blog-bubble {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.bubble-big {
+  border-radius: 50%;
+  border: 2px solid #D8E6DF;
+  max-width: 200px;
+  height: 200px;
+}
+
+.bubble-medium {
+  border-radius: 50%;
+  border: 2px solid #D8E6DF;
+  max-width: 150px;
+  height: 150px;
+}
+
+.bubble-small {
+  border-radius: 50%;
+  border: 2px solid #D8E6DF;
+  max-width: 120px;
+  height: 120px;
+}
+
+.bubble:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.amsterdam {
+  width: 500px;
+  height: auto;
+}
+
+.aboutme-text {
+  color: #95B1AE;
+}
+
+.aboutme-border {
+  border-top: 2px solid #95B1AE;
+}
+
+.gallery-base {
+  background-color: #95B1AE;
+}
+
+.gallery-text {
+  color: #D8E6DF;
+}
+
+.gallery-text-2 {
+  max-width: 1000px;
+}
+
+.grid-container{
+  background-color: #D8E6DF;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.gallery-item {
+  width: 250px;
+  height: 250px;
+}
+
+.gallery-long {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 540px;
+  height: 250px;
+}
+
+.gallery-tall {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  height: 540px;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-long {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .rhinos {
+    width: 0;
+    height: auto;
+    color: transparent;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .halloween{
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+
+  .vertical-text-right{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .blog-post-container-even {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-post-container-odd {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1256px){
+  .amsterdam {
+    width: 0;
+  }
+}
+
+.picture-holder{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-text{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 2rem;
+}
+
+.picture-text{
+  position: absolute;
+  color: transparent;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*What we need is to change the image opacity to .5 and the text to apparent instead of changing div opacity*/
+#holder:hover #picture{
+  opacity: .7;
+}
+
+#holder:hover #text{
+  color: black;
+}
+
+.blogpage {
+  background-color: #D8E6DF;
+}
+
+.blog-intro {
+  max-width: 650px;
+}
+
+.blog-paragraphs{
+  max-width: 1000px;
+}
+
+/*Animation Stuff*/
+
+.transition{
+  opacity: 0;
+}
+
+.intro-enter {
+  opacity: 0.01;
+}
+
+.intro-enter-active {
+  opacity: .5;
+  transition: opacity 700ms;
+}
+
+.intro-enter-done {
+  opacity: 1;
+}

@@ -10,7 +10,7 @@ function About() {
                     <h1 className="aboutme-text">About Me</h1>
                     <hr className="aboutme-border"></hr>
                     <h1 className="align-self-end">Past, Present, and Future</h1>
-                    <div className="mt-3">
+                    <div className="mt-3 about-text">
                         <p>
                             Growing up in Bethlehem I’ve always had easy access to a multitude of diverse environments and people. 
                             My earlier years were defined by my interests in Tang Soo Do and music. The former taught me about discipline and 

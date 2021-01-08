@@ -34,11 +34,11 @@ function Gallery() {
                         <img id="picture" className="gallery-item" src={smiz}></img>
                         <p id="text" className="picture-text oswald">Panther Hollow 10/03/20</p>
                     </div>
-                    <div id="holder" className="picture-holder gallery-tall">
-                        <img id="picture" className="gallery-tall" src={kilns}></img>
-                        <p id="text" className="picture-text oswald">Coplay Kilns 12/12/20</p>
+                    <div id="holder" className="picture-holder gallery-tall kilns large">
+                        <img id="picture" className="gallery-tall kilns" src={kilns}></img>
+                        <p id="text" className="picture-text oswald kilns">Coplay Kilns 12/12/20</p>
                     </div>
-                    <div id="holder" className="picture-holder gallery-long">
+                    <div id="holder" className="picture-holder gallery-long large">
                         <img id="picture" className="gallery-long" src={grouphike}></img>
                         <p id="text" className="picture-text oswald">High Rocks 12/11/20</p>
                     </div>
@@ -48,7 +48,7 @@ function Gallery() {
                     </div>
                     <div id="holder" className="picture-holder gallery-item rhinos">
                         <img id="picture" className="gallery-item rhinos" src={rhinos}></img>
-                        <p id="text" className="picture-text oswald rhinos">Allegheny Observatory 10/24/20</p>
+                        <p id="text" className="picture-text oswald">Allegheny Observatory 10/24/20</p>
                     </div>
                 </div>
                 <h1 className="px-2 vertical-text vertical-text-right">Photo Gallery</h1>

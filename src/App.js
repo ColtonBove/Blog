@@ -31,7 +31,7 @@ function Title({match}) {
             {paragraph}
           </p>
         ))}
-        <Link to="/Blog">
+        <Link to="/BlogArchive">
           <p className="py-4 blog-link">Go back to blog archive here</p>
         </Link>
       </div>
@@ -44,7 +44,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/Blog">
+          <Route path="/BlogArchive">
             <ScrollToTop>
               <Navbarblog />
               <Blogpage />

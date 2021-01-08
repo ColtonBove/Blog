@@ -13,12 +13,12 @@ function Blogpage(){
         <div className="container-fluid py-5 px-0 blogpage">
             <h1 className="display-2 p-4 ml-5">Blog Archive</h1>
 
-            <div className="container d-flex justify-content-end py-3 mr-3">
+            <div className="container d-flex justify-content-end py-3 mr-3 link-container">
             `   <Link to="/Posts/theidealbody">
                     <div className="d-flex py-3 blog-post-container-even">
-                        <div className="d-flex flex-column text-right mr-5">
+                        <div className="d-flex flex-column text-right mr-5 link-text-container">
                             <h2 className="seagreen">The ideal body?</h2>
-                            <p className="blog-intro text-left link">I’m a 21 year old male. I’m 6 feet tall, and I weigh 160 pounds. Some might consider my age to be at or near my 
+                            <p className="blog-intro text-left">I’m a 21 year old male. I’m 6 feet tall, and I weigh 160 pounds. Some might consider my age to be at or near my 
                                 physical prime. At this point, I could be the “most attractive” I’ll ever be, but what does that really mean? To answer the
                                 question, not much. Something that I always thought to be one of the coolest possibilities about the human body is that we
                                 have the power to change it. Want to drop a few pounds? You can do that. Want to pack on some muscle? You can also 
@@ -30,11 +30,11 @@ function Blogpage(){
                 </Link>
             </div>
 
-            <div className="container d-flex py-3">
+            <div className="container d-flex py-3 link-container">
                 <Link to="/Posts/cooking">
                     <div className="d-flex py-3 blog-post-container-odd">
                         <img className="mr-3 blog-bubble" src={dinner}></img>
-                        <div className="d-flex flex-column ml-5">
+                        <div className="d-flex flex-column ml-5 link-text-container">
                             <h2 className="seagreen">Cooking, even if you're an idiot?</h2>
                             <p className="blog-intro text-left">Time to talk about food, something virtually everyone is a fan of. Even if you’re a picky eater or have dietary 
                                 restrictions I’m sure there’s at least some type of food you can get excited about. What I find confusing is while 
@@ -46,10 +46,10 @@ function Blogpage(){
                 </Link>
             </div>
 
-            <div className="container d-flex justify-content-end py-3 mr-3">
+            <div className="container d-flex justify-content-end py-3 mr-3 link-container">
                 <Link to="/Posts/arcticvault">
                     <div className="d-flex py-3 blog-post-container-even">
-                        <div className="d-flex flex-column text-right mr-5">
+                        <div className="d-flex flex-column text-right mr-5 link-text-container">
                             <h2 className="seagreen">The Arcitc Code Vault?</h2>
                             <p className="blog-intro text-left">Alright ladies and gentlemen, time for a post about tech. I’m currently a senior computer science student at the 
                                 University of Pittsburgh, and akin to pretty much any other computer science student or professional software engineer,
@@ -62,11 +62,11 @@ function Blogpage(){
                 </Link>
             </div>
 
-            <div className="container d-flex py-3">
+            <div className="container d-flex py-3 link-container">
                 <Link to="/Posts/productivity">
                     <div className="d-flex py-3 blog-post-container-odd">
                         <img className="mr-3 blog-bubble" src={starten}></img>
-                        <div className="d-flex flex-column ml-5">
+                        <div className="d-flex flex-column ml-5 link-text-container">
                             <h2 className="seagreen">Another bs productivity hack?</h2>
                             <p className="blog-intro text-left">Well, 2020 is just about over, and what a year it’s been. However outrageous and unusual the year was, I’m sure there’ll be 
                                 consistency in the tradition of the New Year’s resolution. If you’re not from America or another place that takes part in this 

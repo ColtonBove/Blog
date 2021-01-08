@@ -13,7 +13,7 @@ function Introduction() {
     return(
         <div id="Introduction" className="jumbotron mb-0 p-0">
             <div className="container d-flex intro-container">
-                <div className="container d-flex align-items-center pt-5">
+                <div className="container d-flex align-items-center pt-5 inner-container">
                     <img className="my-5 mx-3 profile-image" src={profile}></img>
                     <div className="container-fluid d-flex flex-column align-items-center justify-content-center p-1 mt-3 logos">
                         <a href="https://www.linkedin.com/in/colton-bove-49130a167/">
@@ -27,7 +27,7 @@ function Introduction() {
                         </a>
                     </div>
                 </div>
-                <div className="container d-flex flex-column justify-content-end align-items-end mt-4">
+                <div className="container d-flex flex-column justify-content-end align-items-end mt-4 intro-text-container">
                     <h1 className="display-4 font-weight-bold">Colton Bove</h1>
                     <CSSTransition in={isVisible} timeout={300} classNames="intro">
                         <p className="lead font-weight-bold font-italic seagreen transition">

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://coltonbove.com",
-  "name": "webtest",
+  "homepage": "http://coltonbove.github.io/blog",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

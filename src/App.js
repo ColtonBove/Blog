@@ -42,7 +42,7 @@ function Title({match}) {
 function App() {
   return (
     <>
-      <Router basename="/">
+      <Router>
         <Switch>
           <Route path="/BlogArchive">
             <ScrollToTop>

@@ -36,11 +36,7 @@ function Blog() {
                     </p>
                     <p className="blog-paragraph">
                         If you think this sounds a bit crazy, you’re not alone. However, Github isn’t the first to store data inside of a repository 
-                        in the arctic permafrost. As mentioned before, Github paired with the AWA (Arctic World Archive) in order to make the Arctic 
-                        Code Vault a possibility. The AWA is an organization founded in 2017 that “holds an impressive collection of valuable digital 
-                        artefacts and irreplaceable information from around the world.” The AWA already stores things like manuscripts from the 
-                        Vatican Library, various scientific breakthroughs, and masterpieces from artists like Rembrandt and Munch. Their mission is to 
-                        store data in “the safest location on Earth,” a place capable of withstanding both natural and man-made disasters." 
+                        in the arctic permafrost..."
                     </p>
                     <Link to="/Posts/arcticvault" className="blog-link">Read the whole post here</Link>
                 </div>

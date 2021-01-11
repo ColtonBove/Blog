@@ -6,7 +6,7 @@ function About() {
         <div id="About" className="container-fluid d-flex m-0 px-0">
             <div className="container-fluid d-flex px-0 aboutme">
                 <img className="amsterdam" src={amsterdam}></img>
-                <div className="container d-flex flex-column m-5">
+                <div className="d-flex flex-column m-5">
                     <h1 className="aboutme-text">About Me</h1>
                     <hr className="aboutme-border"></hr>
                     <h1 className="align-self-end">Past, Present, and Future</h1>

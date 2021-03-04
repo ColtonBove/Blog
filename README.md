@@ -1,4 +1,4 @@
-##-Personal Blog-
+## -Personal Blog-
 
 This is the public repository for my personal website you can find [here](https://coltonbove.com/)
 
